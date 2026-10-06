@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.Container{
+    width: 100%;
+    background-color: rgb(255, 253, 253);
+    height: 50px;    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+
+
+}
+.navbar-link a{
+    text-decoration: none;
+    
+}
+
+.navbar h2{
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 100px;
+    
+}
+
+.navbar-link{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    
+}
+
+
+.pic{
+    position: relative; /*make it freely move in side the box not moving the orignal */
+    width: 100%;
+    
+}
+.pic img{
+    height: 300px;
+    width: 100%;
+    display: block;
+}
+
+.hello{
+    position: absolute; /* create the box inside the box */
+    top: 5%;
+    left: 49.9%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    width: 100%;
+    font-family  : Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(86, 175, 110);
+    
+}
+
+.pic h1{
+    position: absolute; /* create the box inside the box */
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+.pic h5{
+    position: absolute; /* create the box inside the box */
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+
+
+}
+
+
+.text-passionate{
+    position: absolute; /* create the box inside the box */
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+
+
+
+}
+
+.img button{
+    position: absolute; /* create the box inside the box */
+    top: 27%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    
+
+
+}
+
+.my-button {
+    position: absolute;
+    padding: 12px 25px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    transform: translate(-50%,50%);
+    font-size: 16px;
+    cursor: pointer;
+    left: 50%;
+    top: 55%;
+}
+
+.about {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    padding: 60px 10%;
+}
+
+
+.about-image img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about-text {
+    max-width: 400px;
+    
+}
+
+.about-text-p1{
+    transform: translate(0,-20px);
+    font-size: 14px;
+    color: rgb(86, 175, 110);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-text h1 {
+    font-size: 35px;
+    transform: translate(0,-20px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about-text-p2{
+    transform: translate(0,-20px);
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    width: 80%;
+    border: none;
+    border-top: 1px solid #898585;
+}
+
+
+.get{
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+.get button {
+    
+    padding: 12px 25px;
+    background-color:rgb(1, 20, 6);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    
+    font-size: 16px;
+    cursor: pointer;
+    
+    
+}
+
+.fot-link{
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    
+}
+.fot-link a{
+    color: black;
+    text-decoration: none;
+    margin-top: 30px;
+}
+
+.last{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer{
+    background-color:rgb(179, 238, 195);
+
+}
